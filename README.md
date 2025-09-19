@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index 16dab848229ab629445f0a90b67b843c0ba447bc..f4d735a3ec6e24a66c473ff0b899ab21d64a6375 100644
 --- a/README.md
@@ -61,6 +60,3 @@ index 16dab848229ab629445f0a90b67b843c0ba447bc..f4d735a3ec6e24a66c473ff0b899ab21
 +- Guides on prompt engineering and evaluation frameworks for LLM-based summarization.
 +
 +By iterating on these foundations, contributors can build a robust platform that turns raw video into actionable insights.
- 
-EOF
-)
